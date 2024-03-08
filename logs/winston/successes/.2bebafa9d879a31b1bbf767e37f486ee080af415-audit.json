@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/jihanchowdhury/Desktop/ph-assignment/ph-assignement-backend/logs/winston/successes/.2bebafa9d879a31b1bbf767e37f486ee080af415-audit.json",
+    "files": [
+        {
+            "date": 1709913286550,
+            "name": "/Users/jihanchowdhury/Desktop/ph-assignment/ph-assignement-backend/logs/winston/successes/phu-2024-08-03-21-success.log",
+            "hash": "d1c2f8c11066b0a12333b8a1f52c498dfdf81e0c0771f43c7d7474769fdd94b6"
+        },
+        {
+            "date": 1709924579653,
+            "name": "/Users/jihanchowdhury/Desktop/ph-assignment/ph-assignement-backend/logs/winston/successes/phu-2024-09-03-01-success.log",
+            "hash": "5e04682f78eee3e4b0955de0ba1c920f5a03cc0a250823a3c829741ddd89e2ad"
+        }
+    ],
+    "hashType": "sha256"
+}
