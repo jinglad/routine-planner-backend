@@ -8,10 +8,6 @@ import { ILoginUser, ILoginUserResponse } from './auth.interface';
 
 const loginUser = async (payload: ILoginUser): Promise<ILoginUserResponse> => {
   const { email, password } = payload;
-  // creating instance of User
-  // const user = new User();
-  //  // access to our instance methods
-  //   const isUserExist = await user.isUserExist(id);
 
   const isUserExist = await User.isUserExist(email);
 

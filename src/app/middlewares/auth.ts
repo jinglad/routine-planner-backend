@@ -1,34 +1,25 @@
 import { NextFunction, Request, Response } from 'express';
-import httpStatus from 'http-status';
-import { Secret } from 'jsonwebtoken';
+import jwt from 'jsonwebtoken';
 import config from '../../config';
-import ApiError from '../../errors/ApiError';
-import { jwtHelpers } from '../../helpers/jwtHelpers';
 
-const auth =
-  (...requiredRoles: string[]) =>
-  async (req: Request, res: Response, next: NextFunction) => {
-    try {
-      //get authorization token
-      const token = req.headers.authorization;
-      if (!token) {
-        throw new ApiError(httpStatus.UNAUTHORIZED, 'You are not authorized');
+export const authMiddleware = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
+  const token = req.headers.authorization
+    ? req.headers.authorization.split(' ')[1]
+    : null;
+  if (!token) {
+    res.status(401).send({ error: 'Unauthorized' });
+  } else {
+    jwt.verify(token, config.jwt?.secret || '', (err, decoded) => {
+      if (err) {
+        res.status(403).send({ message: 'forbidden access', error: err });
+      } else {
+        req.decoded = decoded;
+        next();
       }
-      // verify token
-      let verifiedUser = null;
-
-      verifiedUser = jwtHelpers.verifyToken(token, config.jwt.secret as Secret);
-
-      req.user = verifiedUser; // role  , userid
-
-      // role diye guard korar jnno
-      if (requiredRoles.length && !requiredRoles.includes(verifiedUser.role)) {
-        throw new ApiError(httpStatus.FORBIDDEN, 'Forbidden');
-      }
-      next();
-    } catch (error) {
-      next(error);
-    }
-  };
-
-export default auth;
+    });
+  }
+};

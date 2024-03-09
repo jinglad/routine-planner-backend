@@ -14,6 +14,31 @@
             "date": 1709924579653,
             "name": "/Users/jihanchowdhury/Desktop/ph-assignment/ph-assignement-backend/logs/winston/successes/phu-2024-09-03-01-success.log",
             "hash": "5e04682f78eee3e4b0955de0ba1c920f5a03cc0a250823a3c829741ddd89e2ad"
+        },
+        {
+            "date": 1709961239510,
+            "name": "/Users/jihanchowdhury/Desktop/ph-assignment/ph-assignement-backend/logs/winston/successes/phu-2024-09-03-11-success.log",
+            "hash": "1b1fb9eb68c658fcb5d30d6b8a94a7ae7c0d8ab473d7930cc9e9aefddf7dfd24"
+        },
+        {
+            "date": 1709986027754,
+            "name": "/Users/jihanchowdhury/Desktop/ph-assignment/ph-assignement-backend/logs/winston/successes/phu-2024-09-03-18-success.log",
+            "hash": "12f6f33a468e8628b1233378805d5ceaacb9362a32ce50c52ebe3350eaa10e23"
+        },
+        {
+            "date": 1710002029517,
+            "name": "/Users/jihanchowdhury/Desktop/ph-assignment/ph-assignement-backend/logs/winston/successes/phu-2024-09-03-22-success.log",
+            "hash": "543d5d8bf31d0235895ab0bcc242927edd8f5adfa496f4f606e514e408392295"
+        },
+        {
+            "date": 1710005609532,
+            "name": "/Users/jihanchowdhury/Desktop/ph-assignment/ph-assignement-backend/logs/winston/successes/phu-2024-09-03-23-success.log",
+            "hash": "24b5cfae9ca72b4d14f5f6ca9f11b91f6f9ac42c843b0f2bcd08462c1c059cc6"
+        },
+        {
+            "date": 1710007908690,
+            "name": "/Users/jihanchowdhury/Desktop/ph-assignment/ph-assignement-backend/logs/winston/successes/phu-2024-10-03-00-success.log",
+            "hash": "433c0f455c2cc33409d343b3cd6f00689ab731e80ed252ea8659ab85eaf79ff0"
         }
     ],
     "hashType": "sha256"
