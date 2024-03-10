@@ -39,6 +39,16 @@
             "date": 1710007908693,
             "name": "/Users/jihanchowdhury/Desktop/ph-assignment/ph-assignement-backend/logs/winston/errors/phu-2024-10-03-00-error.log",
             "hash": "ae27d59fbdad5630fe01e6ccc1a4f97c0707b97198e4561d3d0627043f7ce04d"
+        },
+        {
+            "date": 1710085403867,
+            "name": "/Users/jihanchowdhury/Desktop/ph-assignment/ph-assignement-backend/logs/winston/errors/phu-2024-10-03-21-error.log",
+            "hash": "c602c90c01356cbe2f45684fa417476d91535a341f5a3b5d2354d03512da0aa4"
+        },
+        {
+            "date": 1710096751052,
+            "name": "/Users/jihanchowdhury/Desktop/ph-assignment/ph-assignement-backend/logs/winston/errors/phu-2024-11-03-00-error.log",
+            "hash": "02fe78778e925689c2f3c51cf20c011906db2f1eaeced9c9df4e25f23ae86e1c"
         }
     ],
     "hashType": "sha256"

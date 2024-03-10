@@ -39,6 +39,16 @@
             "date": 1710007908690,
             "name": "/Users/jihanchowdhury/Desktop/ph-assignment/ph-assignement-backend/logs/winston/successes/phu-2024-10-03-00-success.log",
             "hash": "433c0f455c2cc33409d343b3cd6f00689ab731e80ed252ea8659ab85eaf79ff0"
+        },
+        {
+            "date": 1710085403865,
+            "name": "/Users/jihanchowdhury/Desktop/ph-assignment/ph-assignement-backend/logs/winston/successes/phu-2024-10-03-21-success.log",
+            "hash": "0bc79cb907ce851fb08e5714faa19e3512ac00aabec8351c60c7ed43e63912c5"
+        },
+        {
+            "date": 1710096751049,
+            "name": "/Users/jihanchowdhury/Desktop/ph-assignment/ph-assignement-backend/logs/winston/successes/phu-2024-11-03-00-success.log",
+            "hash": "59529ce9bcfab1ff3d5f6f35d365515289b04ec08369b33e918844fd0e456bc6"
         }
     ],
     "hashType": "sha256"
