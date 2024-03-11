@@ -8,8 +8,6 @@ import { LearningObjectiveService } from './learningObjectives.service';
 const createLearningObjective = catchAsync(
   async (req: Request, res: Response) => {
     const user: any = req.decoded;
-    console.log('user', user);
-    console.log('req.body', req.body);
     const learningObj = {
       ...req.body,
       user: user?.userId,

@@ -49,6 +49,56 @@
             "date": 1710096751052,
             "name": "/Users/jihanchowdhury/Desktop/ph-assignment/ph-assignement-backend/logs/winston/errors/phu-2024-11-03-00-error.log",
             "hash": "02fe78778e925689c2f3c51cf20c011906db2f1eaeced9c9df4e25f23ae86e1c"
+        },
+        {
+            "date": 1710128974262,
+            "name": "/Users/jihanchowdhury/Desktop/ph-assignment/ph-assignement-backend/logs/winston/errors/phu-2024-11-03-09-error.log",
+            "hash": "9d70833eebbe528824f86b45dc2769fca065926c442058a2ec4b32ecbeb63205"
+        },
+        {
+            "date": 1710132202865,
+            "name": "/Users/jihanchowdhury/Desktop/ph-assignment/ph-assignement-backend/logs/winston/errors/phu-2024-11-03-10-error.log",
+            "hash": "87c9bbbb82922c528d650e53d565e08654b51eb043e1fca4653bf15025854584"
+        },
+        {
+            "date": 1710137611193,
+            "name": "/Users/jihanchowdhury/Desktop/ph-assignment/ph-assignement-backend/logs/winston/errors/phu-2024-11-03-12-error.log",
+            "hash": "aab68cf26139a094d251650269aba543047663021c3e89d0343a2c97dd1331c4"
+        },
+        {
+            "date": 1710152508948,
+            "name": "/Users/jihanchowdhury/Desktop/ph-assignment/ph-assignement-backend/logs/winston/errors/phu-2024-11-03-16-error.log",
+            "hash": "e633c8fe06b58b7690c25abb7ecd8408a4e407f57655004a531cea44bdd0a9f9"
+        },
+        {
+            "date": 1710160215364,
+            "name": "/Users/jihanchowdhury/Desktop/ph-assignment/ph-assignement-backend/logs/winston/errors/phu-2024-11-03-18-error.log",
+            "hash": "74a071f54a16ff42f9a9df8872b5d1d806a0eb875d6eff336ea1ca7b6837335b"
+        },
+        {
+            "date": 1710171028773,
+            "name": "/Users/jihanchowdhury/Desktop/ph-assignment/ph-assignement-backend/logs/winston/errors/phu-2024-11-03-21-error.log",
+            "hash": "1c471360a5f1f1e8a0747312ccdf7e73b4a501af01e1685a28a093cc58268984"
+        },
+        {
+            "date": 1710173149666,
+            "name": "/Users/jihanchowdhury/Desktop/ph-assignment/ph-assignement-backend/logs/winston/errors/phu-2024-11-03-22-error.log",
+            "hash": "1fed2d5ebd50d95c3cf48a304e2b1b720ce51250b1d4b72cb5c7156500981879"
+        },
+        {
+            "date": 1710179293580,
+            "name": "/Users/jihanchowdhury/Desktop/ph-assignment/ph-assignement-backend/logs/winston/errors/phu-2024-11-03-23-error.log",
+            "hash": "81a49efe7ce52243d381bb3a08b8829ece423f7ace2dc3242a120e810edfea8d"
+        },
+        {
+            "date": 1710182448775,
+            "name": "/Users/jihanchowdhury/Desktop/ph-assignment/ph-assignement-backend/logs/winston/errors/phu-2024-12-03-00-error.log",
+            "hash": "ece1c0fcb593a127e0483a52bd0bf864427cb5b2d817cef14ec63a2263262e0e"
+        },
+        {
+            "date": 1710184041066,
+            "name": "/Users/jihanchowdhury/Desktop/ph-assignment/ph-assignement-backend/logs/winston/errors/phu-2024-12-03-01-error.log",
+            "hash": "f7ab25e6a9217b5a60cf77a941ff6a83de5a6e8ff27c28412b0ddae8bce6589c"
         }
     ],
     "hashType": "sha256"

@@ -13,10 +13,6 @@ router.post(
   AcademicTimingsController.addAcademicTimings
 );
 
-// router.get(
-//   '/',
-//   authMiddleware,
-//   AcademicTimingsController
-// );
+router.get('/', authMiddleware, AcademicTimingsController.getAcademicTimings);
 
 export const AcademicTimingsRoute = router;
