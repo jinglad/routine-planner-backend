@@ -30,11 +30,6 @@ To use the backend for the Routine Planner Feature, follow these steps:
 1. **Prerequisites**: Ensure you have Node.js and the chosen database (MongoDB) installed.
 2. **Installation**: Run `npm install` to install the project dependencies.
 
-### Database Configuration
-
-- Set up the database connection in the appropriate configuration file.
-- Create the necessary collections or tables for storing user data.
-
 ### Running the Application
 
 - Run `npm dev` to start the backend server in development mode.
