@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable no-console */
 import { Server } from 'http';
 import mongoose from 'mongoose';
@@ -6,7 +7,7 @@ import config from './config/index';
 // import { errorLogger } from './shared/logger';
 
 process.on('uncaughtException', error => {
-  console.log(error);
+  // console.log(error);
   process.exit(1);
 });
 

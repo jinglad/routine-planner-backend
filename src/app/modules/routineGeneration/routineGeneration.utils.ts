@@ -14,10 +14,11 @@ export function calculateTotalStudyTime(
 }
 
 export function filterAvailableAcademicTimings(
-  academicTimings: IAcademicTimings[]
+  academicTimings: IAcademicTimings[],
+  currentDate: string
 ) {
-  const currentDay = new Date().getDay(); // 0 for Sunday, 1 for Monday, etc.
-  const currentTime = new Date().toLocaleTimeString('en-US', {
+  const currentDay = new Date(currentDate).getDay(); // 0 for Sunday, 1 for Monday, etc.
+  const currentTime = new Date(currentDate).toLocaleTimeString('en-US', {
     hour: '2-digit',
     minute: '2-digit',
   });
